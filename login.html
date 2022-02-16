@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -22,3 +23,29 @@
         <script src="./components/login.js"></script>
     </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="login-section">
+            <h1 class="login-head">USER LOGIN</h1>
+            <form class="login-form" action="home.html" method="post" name="form" onsubmit="return validated()">
+                <div class="login-font"><i class="fas fa-user-alt"></i> Email Id</div>
+                <input autocomplete="off" type="text" name="email">
+                <div id="emailerror">Please Enter an Email</div>
+                <div class="login-font"><i class="fas fa-lock"></i> Password</div>
+                <input type="password" name="password">
+                <div id="passworderror">Please Enter an Password with minimum 9 digits</div>
+                <button type="submit" class="btn">Login</button>
+
+            </form>
+        </div>
+        <script src="login.js"></script>
+    </body>
+</html>
+>>>>>>> a9a96a3ed8690ed15451c245d195ba06fe729d24
